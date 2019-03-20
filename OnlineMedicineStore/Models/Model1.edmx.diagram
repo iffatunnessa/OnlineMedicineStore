@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="361143914b0c40348f5fe7570f01f7a7" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.Contact" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.Manage" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.Medicine" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.Sale" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.Stock" Width="1.5" PointX="3.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.Supplier" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.Supply_Info" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.sysdiagram" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMedicineStoreModel.User" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="OnlineMedicineStoreModel.FK_Contact_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMedicineStoreModel.FK_Manage_Medicine" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMedicineStoreModel.FK_Manage_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMedicineStoreModel.FK_Manage_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMedicineStoreModel.FK_Sales_Medicine" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMedicineStoreModel.FK_Supply_Info_Medicine" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMedicineStoreModel.FK_Sales_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMedicineStoreModel.FK_Supply_Info_Supplier" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
